@@ -1,6 +1,6 @@
 {
   "name": "niobi-localhost",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Local host",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrescoDev/niobi-localhost.git"
-  },
-  "bin": {
-    "serve": "./bin/index.js",
-    "build": "./bin/build-contract.js"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"

@@ -6,7 +6,7 @@ const helmet = require("helmet");
 const bunyan = require("bunyan");
 const { SERVER_PORT } = process.env;
 const { at_path, with_method } = require("../../package.json").contract;
-const logic = require("../logic");
+const logic = require("../../logic");
 
 const logger = bunyan.createLogger({
   name: "niobi-localhost",
