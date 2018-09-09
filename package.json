@@ -1,0 +1,24 @@
+{
+  "name": "niobi-localhost",
+  "version": "0.0.1",
+  "description": "Local host",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build-contract.js",
+    "local": "nodemon index.js"
+  },
+  "author": "niobi",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "bunyan-middleware": "^0.8.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "ramda": "^0.25.0"
+  }
+}
