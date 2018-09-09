@@ -1,6 +1,6 @@
 {
   "name": "niobi-localhost",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Local host",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,17 @@
   },
   "author": "niobi",
   "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^1.18.3"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrescoDev/niobi-localhost.git"
-},
+  },
+  "bin": {
+    "serve": "./bin/index.js",
+    "build": "./bin/build-contract.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "bunyan": "^1.8.12",
