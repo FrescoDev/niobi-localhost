@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { contract } = require("../package.json");
+const { contract } = require("../../package.json");
 const path = require("path");
 const fs = require("fs");
 const filePath = path.join(__dirname, "../../spec.json");
