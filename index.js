@@ -5,7 +5,7 @@ const bunyanMiddleware = require("bunyan-middleware");
 const helmet = require("helmet");
 const bunyan = require("bunyan");
 const { SERVER_PORT } = process.env;
-const { at_path, with_method } = require("../package.json").contract;
+const { at_path, with_method } = require("../../package.json").contract;
 const logic = require("../logic");
 
 const logger = bunyan.createLogger({
